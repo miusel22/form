@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <span><img src="" alt="">Facebook</span>
+        <form>
+            <table>
+                <tr>
+                    <td>Correo Electrónico o Número</td>
+                    <td>Contraseña</td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Correo Electronico"></td>
+                    <td><input type="password" placeholder="Contraseña"></td>
+                    <td><input type="submit" value="Ingresar"></td>
+                </tr>
+
+
+            </table>
+        </form>
+    </header>
+
+    <!--terminamos el header-->
+    <main>
+        <!--nos sirve como contenedor-->
+        <div class="registrarse">
+            <div class="registro1">
+
+
+                <h1>Regístrate!</h1>
+                <h2>Es rapido y fácil.</h2>
+                <br>
+            </div>
+            <div class="registro2">
+                <td><input type="text" name=nombre size="24" maxlength="24" placeholder="Nombre"></td>
+                <td><input type="text" name=nombre size="24" maxlength="24" placeholder="Apellido"></td>
+                <br>
+                <br>
+
+                <td><input type="text" name=nombre size="55" maxlength="40"
+                        placeholder="Número de teléfono o correo electrónico"></td>
+                <br>
+                <br>
+
+                <div class="pasword">
+                    <td><input type="text" name=nombre size="55" maxlength="40" placeholder="Nueva contraseña"></td>
+
+                </div>
+
+                <div clas="cumpleanos">
+                    <br>
+                    <h4>Cumpleaños</h4>
+                    <br>
+
+                    <select class="cumple" aria-label="Mes" name="birthday_month" id="month" title="Mes">
+                        <option value="0">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Mes</font>
+                            </font>
+                        </option>
+                        <option value="1">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">ene</font>
+                            </font>
+                        </option>
+                        <option value="2" selected="1">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">feb</font>
+                            </font>
+                        </option>
+                        <option value="3">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">mar</font>
+                            </font>
+                        </option>
+                        <option value="4">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">abr</font>
+                            </font>
+                        </option>
+                        <option value="5">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Mayo</font>
+                            </font>
+                        </option>
+                        <option value="6">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">jun</font>
+                            </font>
+                        </option>
+                        <option value="7">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">jul</font>
+                            </font>
+                        </option>
+                        <option value="8">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">ago</font>
+                            </font>
+                        </option>
+                        <option value="9">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">sep</font>
+                            </font>
+                        </option>
+                        <option value="10">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">oct</font>
+                            </font>
+                        </option>
+                        <option value="11">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">nov</font>
+                            </font>
+                        </option>
+                        <option value="12">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">dic</font>
+                            </font>
+                        </option>
+                    </select>
+                    <select class="cumple" aria-label="Día" name="birthday_day" id="day" title="Día">
+                        <option value="0">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Día</font>
+                            </font>
+                        </option>
+                        <option value="1">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1</font>
+                            </font>
+                        </option>
+                        <option value="2">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2</font>
+                            </font>
+                        </option>
+                        <option value="3">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">3</font>
+                            </font>
+                        </option>
+                        <option value="4">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">4</font>
+                            </font>
+                        </option>
+                        <option value="5">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">5 5</font>
+                            </font>
+                        </option>
+                        <option value="6">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">6</font>
+                            </font>
+                        </option>
+                        <option value="7">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">7</font>
+                            </font>
+                        </option>
+                        <option value="8">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">8</font>
+                            </font>
+                        </option>
+                        <option value="9">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">9</font>
+                            </font>
+                        </option>
+                        <option value="10">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">10</font>
+                            </font>
+                        </option>
+                        <option value="11">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">11</font>
+                            </font>
+                        </option>
+                        <option value="12">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">12</font>
+                            </font>
+                        </option>
+                        <option value="13">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">13</font>
+                            </font>
+                        </option>
+                        <option value="14">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">14</font>
+                            </font>
+                        </option>
+                        <option value="15">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">15</font>
+                            </font>
+                        </option>
+                        <option value="16">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">16</font>
+                            </font>
+                        </option>
+                        <option value="17">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">17</font>
+                            </font>
+                        </option>
+                        <option value="18">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">18</font>
+                            </font>
+                        </option>
+                        <option value="19">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">19</font>
+                            </font>
+                        </option>
+                        <option value="20">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">20</font>
+                            </font>
+                        </option>
+                        <option value="21" selected="1">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">21</font>
+                            </font>
+                        </option>
+                        <option value="22">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">22</font>
+                            </font>
+                        </option>
+                        <option value="23">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">23</font>
+                            </font>
+                        </option>
+                        <option value="24">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">24</font>
+                            </font>
+                        </option>
+                        <option value="25">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">25</font>
+                            </font>
+                        </option>
+                        <option value="26">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">26</font>
+                            </font>
+                        </option>
+                        <option value="27">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">27</font>
+                            </font>
+                        </option>
+                        <option value="28">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">28</font>
+                            </font>
+                        </option>
+                        <option value="29">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">29</font>
+                            </font>
+                        </option>
+                        <option value="30">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">30</font>
+                            </font>
+                        </option>
+                        <option value="31">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">31</font>
+                            </font>
+                        </option>
+                    </select>
+                    <select class="cumple" aria-label="Año" name="birthday_year" id="year" title="Año">
+                        <option value="0">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Año</font>
+                            </font>
+                        </option>
+                        <option value="2020">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2020</font>
+                            </font>
+                        </option>
+                        <option value="2019">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2019</font>
+                            </font>
+                        </option>
+                        <option value="2018">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2018</font>
+                            </font>
+                        </option>
+                        <option value="2017">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2017</font>
+                            </font>
+                        </option>
+                        <option value="2016">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2016</font>
+                            </font>
+                        </option>
+                        <option value="2015">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2015</font>
+                            </font>
+                        </option>
+                        <option value="2014">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2014</font>
+                            </font>
+                        </option>
+                        <option value="2013">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2013</font>
+                            </font>
+                        </option>
+                        <option value="2012">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2012</font>
+                            </font>
+                        </option>
+                        <option value="2011">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2011</font>
+                            </font>
+                        </option>
+                        <option value="2010">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2010</font>
+                            </font>
+                        </option>
+                        <option value="2009">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2009</font>
+                            </font>
+                        </option>
+                        <option value="2008">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2008</font>
+                            </font>
+                        </option>
+                        <option value="2007">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2007</font>
+                            </font>
+                        </option>
+                        <option value="2006">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2006</font>
+                            </font>
+                        </option>
+                        <option value="2005">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2005</font>
+                            </font>
+                        </option>
+                        <option value="2004">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2004</font>
+                            </font>
+                        </option>
+                        <option value="2003">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2003</font>
+                            </font>
+                        </option>
+                        <option value="2002">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2002</font>
+                            </font>
+                        </option>
+                        <option value="2001">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2001</font>
+                            </font>
+                        </option>
+                        <option value="2000">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">2000</font>
+                            </font>
+                        </option>
+                        <option value="1999">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1999</font>
+                            </font>
+                        </option>
+                        <option value="1998">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1998</font>
+                            </font>
+                        </option>
+                        <option value="1997">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1997</font>
+                            </font>
+                        </option>
+                        <option value="1996">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1996</font>
+                            </font>
+                        </option>
+                        <option value="1995" selected="1">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1995</font>
+                            </font>
+                        </option>
+                        <option value="1994">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1994</font>
+                            </font>
+                        </option>
+                        <option value="1993">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1993</font>
+                            </font>
+                        </option>
+                        <option value="1992">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1992</font>
+                            </font>
+                        </option>
+                        <option value="1991">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1991</font>
+                            </font>
+                        </option>
+                        <option value="1990">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1990</font>
+                            </font>
+                        </option>
+                        <option value="1989">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1989</font>
+                            </font>
+                        </option>
+                        <option value="1988">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1988</font>
+                            </font>
+                        </option>
+                        <option value="1987">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1987</font>
+                            </font>
+                        </option>
+                        <option value="1986">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1986</font>
+                            </font>
+                        </option>
+                        <option value="1985">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1985</font>
+                            </font>
+                        </option>
+                        <option value="1984">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1984</font>
+                            </font>
+                        </option>
+                        <option value="1983">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1983</font>
+                            </font>
+                        </option>
+                        <option value="1982">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">mil novecientos ochenta y dos</font>
+                            </font>
+                        </option>
+                        <option value="1981">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1981</font>
+                            </font>
+                        </option>
+                        <option value="1980">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1980</font>
+                            </font>
+                        </option>
+                        <option value="1979">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1979</font>
+                            </font>
+                        </option>
+                        <option value="1978">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1978</font>
+                            </font>
+                        </option>
+                        <option value="1977">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1977</font>
+                            </font>
+                        </option>
+                        <option value="1976">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1976</font>
+                            </font>
+                        </option>
+                        <option value="1975">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1975</font>
+                            </font>
+                        </option>
+                        <option value="1974">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1974</font>
+                            </font>
+                        </option>
+                        <option value="1973">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1973</font>
+                            </font>
+                        </option>
+                        <option value="1972">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1972</font>
+                            </font>
+                        </option>
+                        <option value="1971">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1971</font>
+                            </font>
+                        </option>
+                        <option value="1970">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1970</font>
+                            </font>
+                        </option>
+                        <option value="1969">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1969</font>
+                            </font>
+                        </option>
+                        <option value="1968">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1968</font>
+                            </font>
+                        </option>
+                        <option value="1967">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1967</font>
+                            </font>
+                        </option>
+                        <option value="1966">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1966</font>
+                            </font>
+                        </option>
+                        <option value="1965">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1965</font>
+                            </font>
+                        </option>
+                        <option value="1964">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1964</font>
+                            </font>
+                        </option>
+                        <option value="1963">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1963</font>
+                            </font>
+                        </option>
+                        <option value="1962">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1962</font>
+                            </font>
+                        </option>
+                        <option value="1961">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1961</font>
+                            </font>
+                        </option>
+                        <option value="1960">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1960</font>
+                            </font>
+                        </option>
+                        <option value="1959">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1959</font>
+                            </font>
+                        </option>
+                        <option value="1958">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1958</font>
+                            </font>
+                        </option>
+                        <option value="1957">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1957</font>
+                            </font>
+                        </option>
+                        <option value="1956">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1956</font>
+                            </font>
+                        </option>
+                        <option value="1955">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1955</font>
+                            </font>
+                        </option>
+                        <option value="1954">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1954</font>
+                            </font>
+                        </option>
+                        <option value="1953">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1953</font>
+                            </font>
+                        </option>
+                        <option value="1952">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1952</font>
+                            </font>
+                        </option>
+                        <option value="1951">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1951</font>
+                            </font>
+                        </option>
+                        <option value="1950">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1950</font>
+                            </font>
+                        </option>
+                        <option value="1949">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1949</font>
+                            </font>
+                        </option>
+                        <option value="1948">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1948</font>
+                            </font>
+                        </option>
+                        <option value="1947">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1947</font>
+                            </font>
+                        </option>
+                        <option value="1946">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1946</font>
+                            </font>
+                        </option>
+                        <option value="1945">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1945</font>
+                            </font>
+                        </option>
+                        <option value="1944">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1944</font>
+                            </font>
+                        </option>
+                        <option value="1943">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1943</font>
+                            </font>
+                        </option>
+                        <option value="1942">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1942</font>
+                            </font>
+                        </option>
+                        <option value="1941">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1941</font>
+                            </font>
+                        </option>
+                        <option value="1940">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1940</font>
+                            </font>
+                        </option>
+                        <option value="1939">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1939</font>
+                            </font>
+                        </option>
+                        <option value="1938">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1938</font>
+                            </font>
+                        </option>
+                        <option value="1937">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1937</font>
+                            </font>
+                        </option>
+                        <option value="1936">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1936</font>
+                            </font>
+                        </option>
+                        <option value="1935">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1935</font>
+                            </font>
+                        </option>
+                        <option value="1934">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1934</font>
+                            </font>
+                        </option>
+                        <option value="1933">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1933</font>
+                            </font>
+                        </option>
+                        <option value="1932">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1932</font>
+                            </font>
+                        </option>
+                        <option value="1931">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1931</font>
+                            </font>
+                        </option>
+                        <option value="1930">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1930</font>
+                            </font>
+                        </option>
+                        <option value="1929">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1929</font>
+                            </font>
+                        </option>
+                        <option value="1928">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1928</font>
+                            </font>
+                        </option>
+                        <option value="1927">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1927</font>
+                            </font>
+                        </option>
+                        <option value="1926">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1926</font>
+                            </font>
+                        </option>
+                        <option value="1925">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1925</font>
+                            </font>
+                        </option>
+                        <option value="1924">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1924</font>
+                            </font>
+                        </option>
+                        <option value="1923">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1923</font>
+                            </font>
+                        </option>
+                        <option value="1922">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1922</font>
+                            </font>
+                        </option>
+                        <option value="1921">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1921</font>
+                            </font>
+                        </option>
+                        <option value="1920">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1920</font>
+                            </font>
+                        </option>
+                        <option value="1919">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1919</font>
+                            </font>
+                        </option>
+                        <option value="1918">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1918</font>
+                            </font>
+                        </option>
+                        <option value="1917">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1917</font>
+                            </font>
+                        </option>
+                        <option value="1916">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1916</font>
+                            </font>
+                        </option>
+                        <option value="1915">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1915</font>
+                            </font>
+                        </option>
+                        <option value="1914">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1914</font>
+                            </font>
+                        </option>
+                        <option value="1913">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1913</font>
+                            </font>
+                        </option>
+                        <option value="1912">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1912</font>
+                            </font>
+                        </option>
+                        <option value="1911">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1911</font>
+                            </font>
+                        </option>
+                        <option value="1910">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1910</font>
+                            </font>
+                        </option>
+                        <option value="1909">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1909</font>
+                            </font>
+                        </option>
+                        <option value="1908">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1908</font>
+                            </font>
+                        </option>
+                        <option value="1907">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1907</font>
+                            </font>
+                        </option>
+                        <option value="1906">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1906</font>
+                            </font>
+                        </option>
+                        <option value="1905">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">1905</font>
+                            </font>
+                        </option>
+                    </select>
+                </div>
+
+
+                <div class="genero">
+                    <br>
+                    <h4>Género</h4>
+                    <div class="gen">
+                        <input name="user-recommend" value="definitely" type="radio" class="input-radio"
+                            checked="">Hombre
+                        <input name="user-recommend" value="definitely" type="radio" class="input-radio"
+                            checked="">Mujer
+                        <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Otro
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="intereses">
+                    <h4>Me interesan</h4>
+
+                    <select id="most-like" name="mostLike" class="form-control" required="">
+                        <option disabled="" selected="" value="">Seleccione una opción</option>
+                        <option value="challenges">Hombres</option>
+                        <option value="projects">Mujeres</option>
+                        <option value="community">Ambos</option>
+
+                    </select>
+                </div>
+                <br>
+                <div class="forml-group">
+                    <p>Acerca de ti</p>
+                    <textarea id="comments" class="input-textarea" name="comment"></textarea>
+                
+                </div>
+                <br>
+                <button type="button" class="btn btn-success">Registrarse</button>
+            </div>
+        </div>
+    </main>
+    <!-- información-->
+    <div class="info">
+
+
+        <h3>Conéctate con amigos y el mundo que te rodea en Facebook.</h3>
+        <br>
+
+        <img class="alineadoTextoImagenArriba" src="https://img.icons8.com/ios/50/000000/books.png" alt="" />
+        <strong>Ver fotos y actualizaciones</strong> de amigos en News Feed.
+
+        <br>
+        <br>
+
+        <img class="alineadoTextoImagenArriba" src="https://img.icons8.com/ios/80/000000/popular-topic.png">
+        <strong>Comparta las novedades de su vida </strong> en su línea de tiempo.
+        <br>
+        <br>
+        <img class="alineadoTextoImagenArriba" src="https://img.icons8.com/wired/64/000000/hub.png" /> <strong>Encuentra
+            más de lo que estás buscando </strong> con Facebook Search.
+
+    </div>
+
+
+    </div>
+
+
+
+    <!--- Aqui va nuestro footer-->
+
+    <section>
+        <footer class="footer">
+            <div class="container">
+
+                <div class="footer__sections">
+                    <h2></h2>
+                    <section>
+                        <div class="footer__icons">
+                            <i class="fab fa-facebook-f fa-3x"></i>
+
+                            <i class="fab fa-instagram fa-3x"></i>
+                            <i class="fab fa-github fa-3x"></i>
+
+                        </div>
+                    </section>
+
+
+                </div>
+            </div>
+
+        </footer>
+    </section>
+
+
+
+</body>
+
+</html>

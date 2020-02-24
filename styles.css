@@ -1,0 +1,75 @@
+ 
+
+body{
+background: rgb(215, 216, 253);
+font-family: cursive;
+margin: 0;
+
+}
+header{
+    background-color: #3b5998;
+    color: white;
+    padding: 15px;
+}
+span{
+    font-size: 3em;
+    font-weight: bold;
+}
+form{
+    float: right;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+ input[type="text"],input[type="password"],input[type="submit"]{
+     padding: 5px;
+     font-size: 15px;
+     font-family:sans-serif;
+     border:none;
+     margin:1px;
+ }
+ input[type="submit"]{
+background-color: rgb(7, 61, 143);
+color:white;
+padding: 5px;
+border-radius:5px 5px 5px 5px;
+cursor:pointe;
+ }
+ input[type="submit"]:hover{
+    background-color: rgb(3, 13, 105);
+    color:white;
+ }
+
+ input[type="text"]{
+    border-radius:5px 5px 5px 5px;
+ }
+
+
+.cumple{
+    border-radius:5px 5px 5px 5px;
+}
+.registrarse{
+    float: right;
+    padding: 30px;
+    
+}
+
+.alineadoTextoImagenArriba{
+    vertical-align: center;
+    
+}
+
+.info{
+    float: left;
+    padding: 37px;
+}  
+
+.gen{
+letter-spacing: 2px;
+}
+
+.input-textarea{
+    font-size:30px ;
+   
+
+}
