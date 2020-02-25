@@ -49,6 +49,7 @@ cursor:pointe;
     border-radius:5px 5px 5px 5px;
 }
 .registrarse{
+    width: 40%;
     float: right;
     padding: 30px;
     
@@ -62,6 +63,7 @@ cursor:pointe;
 .info{
     float: left;
     padding: 37px;
+    width: 50%;
 }  
 
 .gen{
@@ -73,4 +75,10 @@ letter-spacing: 2px;
     
 
 
+}
+.containerall{
+    width: 100%;
+    
+    
+  
 }
